@@ -1,0 +1,6 @@
+interface:
+  display_name: "PRD 到前后端产品"
+  short_description: "手动从 PRD 完成前后端实现、真实联调、测试与本地交付，保留需求和验收证据"
+  default_prompt: "使用 $prd-to-product 按这份 PRD 完成前后端开发、联调与本地验收，直接使用当前 Codex，不接独立模型 API。"
+policy:
+  allow_implicit_invocation: false

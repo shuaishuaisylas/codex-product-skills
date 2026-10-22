@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agent 产品蓝图"
+  short_description: "手动启动完整 Agent 产品流程：需求、方案、骨架、验证与持续迭代"
+  default_prompt: "使用 $agent-blueprint，把我的 Agent 点子按完整产品流程推进，直接使用当前 Codex 模型能力。"
+policy:
+  allow_implicit_invocation: false
